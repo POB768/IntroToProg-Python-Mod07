@@ -50,7 +50,7 @@ if userInput.lower() == "y":
 
 elif userInput.lower() == "n":
     print("Goodbye!")
-
+```
 ## Adding Error Handling
 I decided to add a simple error handling feature that flags if the user does not enter an integer for his or her name. To do so, I used the Try, Except, and Else keywords as show in (figure 2) below. I found the demonstrations of this error handling capability on w3schools to be very easy to follow and understand. As shown in (figure 2) I have the try keyword above the userAge input, and if it detects a value error the except function prints the nature of the problem and terminates the program.
 
@@ -69,4 +69,5 @@ if userInput.lower() == "y":
 ```
 
 ## Running Program
-![Results of Listing 13](
+![Running in PyCharm](https://github.com/POB768/IntroToProg-Python-Mod07/blob/master/docs/Running%20in%20PyCharm.png "Running in PyCharm")
+
